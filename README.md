@@ -5,8 +5,6 @@ Leonardo Igor - Turma 1
 
 
 # 1. Introduction
-This project is the second part of an assignment of the programming languages 1 class. It aims to make a board generator for the [Battleship game](https://en.wikipedia.org/wiki/Battleship_(game)).
-
 
 
 # 2. Makefile/Compiling:
