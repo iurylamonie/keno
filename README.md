@@ -58,7 +58,7 @@ bet.dat
 ./bin/main
 ```
 
-2.1 É necessario informar a localização e o nome do arquivo de apostas para inicializar o jogo corretamente.
+3. É necessario informar a localização e o nome do arquivo de apostas para inicializar o jogo corretamente.
 ```
 ./bin/main doc/bet.dat
 ```
