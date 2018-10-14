@@ -2,6 +2,7 @@
 #define KENOBET_H
 
 #include <vector>
+#include <algorithm>
 
 using number_type = unsigned short int;
 using cash_type = float;
