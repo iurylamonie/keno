@@ -1,55 +1,64 @@
-# Authors
+# Autores
+
 Iury Lamonie - Turma 2
 & 
 Leonardo Igor - Turma 1
 
+# 1. Introdução:
 
-# 1. Introduction
-
+Este projeto contém programa que reproduz um jogo Keno em uma versão simples de texto.
 
 # 2. Makefile/Compiling:
 
-
-Will check if the setup is configured, if not, it will make a new setup by calling "make dir" and compile. it calls "make all" internally.
+Verifica se o setup está configurado, caso contrario, fará um novo setup chamando "make dir" e compila. Ele chama "make all" internamente.
 
 ```
 make
 ```
 
-You can also pass arguments to the compiler. Example below.
+Você também pode passar argumentos para o compilador. Como o exemplo abaixo:
 ```
 make args="-D something=212"
 ```
-For enabling the debug mode do:
+Para ativar o modo debug, faça:
 
 ```
 make args="-D DEBUG"
 ```
 
-will make all the working directories. You can do this manually or it will do automatically if you use make.
+Fará tods os diretórios de trabalho. Você pode fazer isso manualmente ou automaticamente se você usar "make".
 ```
 make dir
 ```
 
-will make clean the working directory, will delete all the files contained in bin and docs.
+Limpa todo o diretorio de trabalho, irá apagar todos os arquivos contidos em bin e docs
 ```
 make clean
 ```
 
-will  make the documentation for the current project.
+Fará a documentação para o projeto atual.
 ```
 make doxy
 ```
 
-will call make clean and make dir.
+Irá chamar "make clear" e "make dir"
 ```
 make fresh
 ```
 
+# 3. Rodando o Keno:
 
-# 3. Running:
+1. É recomendavel colocar o seu arquivo de apostas na pasta doc. O arquivo deve está no formado ".dat". Por exemplo:
+```
+bet.dat
+```
 
-Just do
+2. Para rodar o executável, faça:
 ```
 ./bin/main
+```
+
+2.1 É necessario informar a localização e o nome do arquivo de apostas para inicializar o jogo corretamente.
+```
+./bin/main doc/bet.dat
 ```
