@@ -1,9 +1,3 @@
-# Autores
-
-Iury Lamonie - Turma 2
-& 
-Leonardo Igor - Turma 1
-
 # 1. Introdução:
 
 Este projeto contém programa que reproduz um jogo Keno em uma versão simples de texto.
